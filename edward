@@ -1,42 +1,22 @@
-setScreen("WelcomeScreen");
+setScreen("screen1");
+onEvent("button2", "click", function( ) {
+  deleteElement("screen1");
+});
 onEvent("button1", "click", function( ) {
-  setScreen("Home");
+  setScreen("screen2");
 });
 onEvent("button3", "click", function( ) {
-  setScreen("Story");
-});
-onEvent("button6", "click", function( ) {
-  setScreen("Home");
-});
-onEvent("button2", "click", function( ) {
-  deleteElement("Home");
-  deleteElement("MadeBy");
-  deleteElement("Read");
-  deleteElement("Story");
-  deleteElement("WelcomeScreen");
-  deleteElement("notes");
+  setScreen("screen1");
 });
 onEvent("button4", "click", function( ) {
-  setScreen("Read");
-});
-onEvent("button7", "click", function( ) {
-  setScreen("Home");
+  setScreen("screen3");
 });
 onEvent("button5", "click", function( ) {
-  setScreen("MadeBy");
+  setScreen("screen2");
 });
-onEvent("button8", "click", function( ) {
-  setScreen("Home");
+onEvent("button6", "click", function( ) {
+  setScreen("screen4");
 });
-onEvent("button9", "click", function( ) {
-  setScreen("WelcomeScreen");
-});
-onEvent("button10", "click", function( ) {
-  setScreen("notes");
-});
-onEvent("button11", "click", function( ) {
-  setScreen("Home");
-});
-onEvent("button12", "click", function( ) {
-playSpeech("Many Years ago there was a magical island. Elves,Wolfs and Wizards were living in peace. But the most precious treasure of the island which was a magical stone:Soul of the Forest.One day,the power of the stone has made everyone blind. Nobody cared about the ısland and a bloody war has stated.The winner was elves.They forced wolves to go to the snowland was the coldest region of the island.But some of them achived to escape.The forest has embraced the ones that belonged to it.After the war there was no clue of stone.Nobody couldn't reach their aim...", "female" , "English (UK)");
+onEvent("button7", "click", function( ) {
+setScreen("screen2");
 });
